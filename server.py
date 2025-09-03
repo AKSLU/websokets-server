@@ -4,7 +4,7 @@ import requests
 import json
 import time
 
-API_KEY = "6d741fefdf4fb9cb64e59a51"  
+API_KEY = " "  
 TARGET = "KZT"                      
 cache = {}
 last_time = 0
@@ -54,3 +54,4 @@ async def main():
         await asyncio.Future()
 
 asyncio.run(main())
+
